@@ -47,5 +47,11 @@ public class JpaTutorialApplicationTests {
 		PizzaOrder order3 = new PizzaOrder(customer3, PizzaType.BIG);
 		pizzaOrderService.createOrder(customer1, PizzaType.LARGE);
 	}
+	
+	@Test
+	public void findAsdaTest(){
+		givenAsdaCustomer();
+	}
+
 
 }
